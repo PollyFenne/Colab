@@ -1,3 +1,38 @@
+
+body{
+    background-color: #F7D4D6;
+}
+    
+    
+    header{ 
+    background-color:#7FBD32;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h1{
+    color: #213409;
+    border: 8px solid #213409;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 0%;
+}
+
+.banner img{
+    width: 100%;
+    size: 50%;
+}
+
+h2{
+    color: #213409;
+}
+
+article{
+    color: #213409;
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -16,17 +51,18 @@
     border-radius: 5px;
 }
 
-h1 {
+.facts h1 {
     color: 	#2e8b57;
 }
 
-h2, h3 {
+.facts h2, h3 {
     color: #70b16d;
 }
 
 h4 {
     color: 	#b8860b;
 }
+
 .facts {
     display: inline-block;
 }
