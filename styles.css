@@ -1,3 +1,4 @@
+
 body{
     background-color: #F7D4D6;
 }
@@ -32,4 +33,44 @@ h2{
 
 article{
     color: #213409;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.images {
+    top: 1000px;
+}
+.images img {
+    width: 100px;
+    border: solid #70b16d 4px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.images img:hover {
+    width: 150px;
+    border: solid #70b16d 10px;
+    border-radius: 5px;
+}
+
+.facts h1 {
+    color: 	#2e8b57;
+}
+
+.facts h2, h3 {
+    color: #70b16d;
+}
+
+h4 {
+    color: 	#b8860b;
+}
+
+.facts {
+    display: inline-block;
+}
+ul {
+    float: right;
+    width: 35%;
+    background-color: rgb(234, 234, 234);
+    margin: 20px;
+    padding: 20px;
+    padding-left: 30px;
 }
